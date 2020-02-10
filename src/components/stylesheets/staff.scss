@@ -1,0 +1,239 @@
+.staff-page {
+    background-image: url("./assets/Background.svg");
+    color: #273044;
+    font-family: Omnes;
+
+
+}
+
+.staff-title-container {
+    margin-top: 50px;
+    padding-left: 20%;
+
+
+    h1 {
+        font-size: 78px;
+    }
+
+    h2 {
+        font-size: 27px;
+        width: 668px;
+    }
+
+}
+
+.search-container {
+    margin-top: 30px;
+    padding-left: 20%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    height: 180px;
+
+    .filter-title {
+        font-size: 29px;
+        padding-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .search-box {
+        width: 339px;
+        height: 52px;
+        border: 1px solid #82C5B2;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+
+        .input-field {
+            margin-left: 20px;
+            height: 80%;
+            border: none;
+        }
+    }
+}
+
+.staff-page-lower {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 50px;
+
+    .staff-lower-title {
+        font-size: 29px;
+        margin-bottom: 20px;
+    }
+
+    .staff-list-container {
+        border-top: 3px solid #FF4560;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        
+        li {
+            width: 20%;
+            margin: 20px;
+            overflow: hidden;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 10px #0000001A;
+            position: relative;
+            cursor: pointer;
+
+
+
+            img {
+                width: 247px;
+                height: 247px;
+            }
+        }
+
+        .list-item-lower {
+            height: 79px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 10%;
+
+
+            .list-name {
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            .list-job {
+                font-size: 14px;
+            }
+        }
+
+    }
+
+}
+
+.location {
+    position: absolute;
+    color: white;
+    width: 61px;
+    height: 35px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+}
+
+.MAN {
+    background: transparent linear-gradient(270deg, #006CA1 0%, #662483 100%) 0% 0% no-repeat padding-box;
+}
+
+.LOND {
+    background: transparent linear-gradient(89deg, #82C5B2 0%, #CED836 100%) 0% 0% no-repeat padding-box;
+}
+
+.NYC {
+    background: transparent linear-gradient(89deg, #EC840B 0%, #961D66 100%) 0% 0% no-repeat padding-box;
+}
+
+.SAN {
+    background: transparent linear-gradient(89deg, #0CA9E0 0%, #006CA1 100%) 0% 0% no-repeat padding-box;
+}
+
+.MAN2 {
+    border-bottom: 3px solid #662483;
+}
+
+.LOND2 {
+    border-bottom: 3px solid #82C5B2;
+}
+
+.NYC2 {
+    border-bottom: 3px solid #EC840B;
+}
+
+.SAN2 {
+    border-bottom: 3px solid #0CA9E0;
+}
+
+
+.modal-background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(12, 11, 11,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 300;
+}
+
+.modal-child {
+    position: absolute;
+    box-shadow: 1px 1px 10px;
+    z-index: 999;
+}
+
+.staff-show-container {
+    display: flex;
+    flex-direction: row;
+    // height: 30vh;
+
+    // width: 50vw;
+    background: white;
+
+    .staff-show-left {
+        // width: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .staff-show-right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .top {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            .title {
+                font-size: 31px;
+                margin-bottom: 10px;
+            }
+            .job {
+                font-size: 21px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .mid {
+            border-top: 1px dashed #EC840B;
+            border-bottom: 1px dashed #EC840B;
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            .mid-item {
+                margin-top: 10px;
+            }
+
+            img {
+                width: 23px;
+                height: 15px;
+                margin-right: 20px;
+            }
+
+        }
+
+        .bot {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-right: 30px;
+            overflow-wrap: break-word;
+        }
+    }
+}
+
+
+
